@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Baloo 2';
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  font-family: 'Baloo 2';
+  width: 400px;
+  height: 30px;
+  margin: 0 auto;
+  padding-left: 0.5rem;
+  border: 1px solid #000;
+  border-right: none;
+}
+
+input::placeholder {
+  padding-left: 0.5rem;
+}
+
+li {
+  background-color: #ced4da;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+li:nth-child(odd) {
+  background-color: #e9ecef;
+}
+
+li:hover {
+  background-color: #ba181b;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Containers */
+
+.main {
+  margin: 0 auto;
+  padding: 5rem 0;
+  width: 600px;
+}
+
+.todo-input-div {
+  text-align: center;
+  margin: 1rem 2rem auto;
+  padding: 2rem 0;
+  background-color: #5eaaa8;
+}
+
+.todo-list {
+  text-align: center;
+  width: 600px;
+  padding: 0 2rem;
+}
+
+/* Buttons */
+
+.btn-add,
+.btn-remove {
+  font-family: 'Baloo 2';
+  width: 70px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.btn-add:hover {
+  background-color: #ba181b;
+  border: #ba181b;
+  cursor: pointer;
+}
+
+.btn-add:focus,
+input:focus {
+  outline: none;
+}
+
+.finished-task {
+  text-decoration: line-through;
+  background-color: red;
+}
