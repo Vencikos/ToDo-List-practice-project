@@ -16,8 +16,9 @@ h1 {
 
 input {
   font-family: 'Baloo 2';
+  font-size: 1.1rem;
   width: 400px;
-  height: 30px;
+  height: 35px;
   margin: 0 auto;
   padding-left: 0.5rem;
   border: 1px solid #000;
@@ -29,8 +30,13 @@ input::placeholder {
 }
 
 li {
+  display: flex;
+  position: relative;
+  font-size: 1.1rem;
   background-color: #ced4da;
+  height: 40px;
   text-align: left;
+  align-items: center;
   padding-left: 0.5rem;
 }
 
@@ -71,11 +77,11 @@ ul {
 
 /* Buttons */
 
-.btn-add,
-.btn-remove {
+.btn-add {
   font-family: 'Baloo 2';
+  font-size: 1.1rem;
   width: 70px;
-  height: 30px;
+  height: 35px;
   background-color: #000;
   color: #fff;
   border: 1px solid #000;
@@ -92,7 +98,18 @@ input:focus {
   outline: none;
 }
 
-.finished-task {
+li.finished-task {
   text-decoration: line-through;
   background-color: red;
+}
+
+.trash-icon {
+  padding: 11.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.trash-icon:hover {
+  background-color: #5eaaa8;
 }
