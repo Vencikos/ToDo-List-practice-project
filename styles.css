@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Baloo 2';
+  font-family: 'Roboto';
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 }
 
 input {
-  font-family: 'Baloo 2';
+  font-family: 'Roboto';
   font-size: 1.1rem;
   width: 400px;
   height: 35px;
@@ -78,7 +78,7 @@ ul {
 /* Buttons */
 
 .btn-add {
-  font-family: 'Baloo 2';
+  font-family: 'Roboto';
   font-size: 1.1rem;
   width: 70px;
   height: 35px;
@@ -100,7 +100,8 @@ input:focus {
 
 li.finished-task {
   text-decoration: line-through;
-  background-color: red;
+  background-color: #ba181b;
+  color: #fff;
 }
 
 .trash-icon {
