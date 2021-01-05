@@ -98,6 +98,8 @@ input:focus {
   outline: none;
 }
 
+/* Task list */
+
 li.finished-task {
   text-decoration: line-through;
   background-color: #ba181b;
